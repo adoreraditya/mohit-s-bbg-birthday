@@ -1,1 +1,97 @@
-# mohit-s-bbg-birthday
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Birthday Khushi</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+        }
+        .card {
+            background: #ffffff;
+            padding: 2rem;
+            border-radius: 16px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            text-align: center;
+            max-width: 500px;
+            width: 90%;
+        }
+        .title {
+            font-size: 2rem;
+            color: #e84393;
+            margin-bottom: 0.5rem;
+        }
+        .name {
+            font-size: 2.5rem;
+            color: #6c5ce7;
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+        .emoji {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .message {
+            font-size: 1rem;
+            color: #444;
+            line-height: 1.5;
+            margin-bottom: 1.5rem;
+        }
+        .btn {
+            display: inline-block;
+            padding: 0.7rem 1.5rem;
+            border-radius: 25px;
+            border: none;
+            background: #fd79a8;
+            color: #fff;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #e84393;
+        }
+        @media (max-width: 480px) {
+            .title {
+                font-size: 1.6rem;
+            }
+            .name {
+                font-size: 2rem;
+            }
+            .emoji {
+                font-size: 2.5rem;
+            }
+            .message {
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="emoji">🎂🎉🎈</div>
+        <div class="title">Happy Birthday</div>
+        <div class="name">Khushi</div>
+        <p class="message">
+            Many many happy returns of the day, Khushi!  
+            May your life be filled with joy, success, and beautiful moments.  
+            Have an amazing year ahead!
+        </p>
+        <button class="btn" onclick="showWish()">Click for a Special Wish</button>
+    </div>
+    <script>
+        function showWish() {
+            alert("Dear Rasmali, you are special and loved. Happy Birthday! 🎉");
+        }
+    </script>
+</body>
+</html>
